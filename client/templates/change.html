@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Change Code</title>
+		<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div class="container">
+			<h1 class="text-center">Change Code</h1>
+			<form method="GET" action="/change">
+				<div class="form-group">
+					<label>Enter Old Code</label>
+					<input class="form-control" type="text" name="old" maxlength="4" />
+					<label>Enter New Code</label>
+					<input class="form-control" type="text" name="new" maxlength="4" />
+				</div>
+				<input class="btn btn-primary" value="change" type="submit" />
+			</form>
+			<br />
+			<a href="/">Unlock</a>
+		</div>
+	</body>
+
+</html>
