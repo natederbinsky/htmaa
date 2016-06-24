@@ -25,4 +25,4 @@ def change():
     return render_template("change.html")
 
 if __name__ == "__main__":
-    app.run(host="natepi.local", port=8080, debug=True)
+    app.run(host="0.0.0.0", port=8080, debug=True)
