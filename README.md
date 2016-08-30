@@ -15,3 +15,7 @@ See the `method` directory for step-by-step instructions.
 Useful links:
 * https://www.raspberrypi.org/documentation/remote-access/vnc/
 * http://mattrichardson.com/Raspberry-Pi-Flask/
+
+## Unit 4
+
+Circuit design, instrumentation, and soldering instructions.
